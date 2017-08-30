@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="utf8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 
+     <title>AnimalesPeligroExtincion</title>
+</head>
+
+<body> 
+	<header>
+      <img src="imagenes/variosEspecies.jpg"  title="logo">
+      <h1>Animales en Peligro de Extincion</h1>
+    </header>
+    <nav>
+        <ul>
+		   
+		   <li><a href="animales.html">Animales en Peligro</a></li>
+		   <ul>
+		      <li>Tigre</li>
+		      <li>Tortuga</li>
+		   </ul>
+		   <li><a href="causas.html">Causas</a></li>
+		   <li><a href="solucion.html">Solucion</a></li>
+		   <li><a href="fundaciones.html">Fundaciones</a></li>
+		   <ul>
+		      <li>Fundacion Carlos Slim</li>
+		      <li>Fundacion UNAM</li>
+		   </ul>
+		   
+           <li><a href="acerca.html">Acerca de...</a></li>
+		</ul>
+	</nav>
+    <div id="contenido">
+         <h2>Bienvenidos</h2>
+            <p> Actualmente los cambios climaticos, desastres naturales o intervencion del hombre 
+			ha provocado que mucha de las especies de fauna y flora este en peligro de extincion, 
+			este es problema ha probocado problemas en el mundo.</p>
+			<p>Informate acerca de lo que provoca la extincion en los animales y que probablemente no sabias.</p>
+			<hr>
+            <section> 
+			    <fieldset>
+				   <legend>Contantanos y salva un animal</legend>
+				   <form method="post" action="guardar.php">
+				      <label>Nombre: &nbsp </label>
+					  <input type="text" name="nombre" required placeholder="nombre completo">
+					  <br>
+					  <br>
+					  <label>Correo: $nbsp </label>
+					  <input type="email" name="nombre" required placeholder="tucorreo@servidor.com">
+					  <br>
+					  <br>
+					  <label>Comentarios: $nbsp </label>
+					  <textarea  required placeholder="Que piensas acerca del tema"></textarea>
+					  <br>
+					  <br>
+					  <input id="enviar" type="submit" value="enviar">
+					  <input id="cancelar" type="reset" value="cancelar">
+				   </form>
+				</fieldset>
+            </section>
+            <section id="sitio">
+                <article class="sitios">
+                    <h2>¿Sabias que...?</h2>
+                    <p>Segun los cientificos creen que en menos de 30 años se extinguirán mas de medio millon de especies.</p>
+			    </article>
+				<article class="sitios">
+                    <h2>¿Que piensas acerca de la extincion de animales?</h2>
+                    <img src="imagenes/hombreFoca.jpg">
+			    </article>
+				<article class="sitios">
+                    <h2>Que color le asignarias a esta imagen</h2>
+					<fieldset>
+					   <legend>Elige el color</legend>
+					   <form>
+					        <label>Seleccionalo</label>
+							<input type="color">
+							<br>
+							<input type="submit" value="Buscar color">
+					   </form>
+					</fieldset>
+			    </article>
+			</section>
+    </div>
+        <footer>
+            <p>Todos los derechos Viridiana Valdés Martínez</p>
+        </footer>
+</body>
+</html>
